@@ -4,6 +4,8 @@ var express = require("express"),
 
 var app = express();
 
+
+app.locals.pretty = true;
 //load a configuration file
 GLOBAL._config = require("./config.json");
 
