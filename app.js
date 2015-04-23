@@ -37,3 +37,5 @@ app.use( express.static( path.join( __dirname, "public" ) ) );
 //start listening on the designated port
 app.listen( _config.port );
 
+
+console.log("hello world")
