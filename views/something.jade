@@ -1,12 +1,55 @@
 extends ./helpers/layout-default.jade
 
-
+block head
+    link(rel='stylesheet', href='/stylesheets/style.css')
 block body
     h1 Something
+    div(id="bigger-image") blah blah
+    div(id="image-container")
+        ul
+            li 
+                img(src="/images/pic1.jpg")
+            li 
+                img(src="/images/pic2.jpg")
+            li 
+                img(src="/images/pic3.jpg")    
+            li 
+                img(src="/images/pic4.jpg") 
+            li 
+                img(src="/images/pic5.jpg")    
         
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 block footer
     script. 
         $(document).ready(function(){
-            alert("hello");
+            //alert("hello");
         });

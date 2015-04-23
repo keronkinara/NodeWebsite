@@ -1,0 +1,37 @@
+body{
+    background-color: red;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+  }
+li{
+    
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left:0px;
+    
+}
+#image-container
+{
+    width: 500px;
+    height: 250px;
+    overflow: -moz-scrollbars-horizontal; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+#bigger-image{
+    width: 500px;
+    height:500px;
+    background-color: aqua;
+}
+
+ul{    
+    padding: 0px;
+}
+
+/* Plan for morning is to add a big image to div above thumbnails and use jquery to make the image that's currently selected appear there. Then allow list to be scrolled through by using arrow keys and also add some transition between images. Perhaps make the images cycle through anyway on a timer
