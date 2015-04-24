@@ -2,54 +2,27 @@ extends ./helpers/layout-default.jade
 
 block head
     link(rel='stylesheet', href='/stylesheets/style.css')
-block body
-    h1 Something
-    div(id="bigger-image") blah blah
-    div(id="image-container")
+    script(type='text/javascript', src='/js/jquery.js')
+    script(type='text/javascript', src='/js/something.js')
+
+    
+    
+    block body
+    
+    h   
+    div(class="thumbnail-ul")
         ul
             li 
-                img(src="/images/pic1.jpg")
+                img(class="thumbnail",class="pic",src="/images/pic1.jpg")
             li 
-                img(src="/images/pic2.jpg")
+                img(class="thumbnail",class="pic",src="/images/pic2.jpg")
             li 
-                img(src="/images/pic3.jpg")    
+                img(class="thumbnail",class="pic",src="/images/pic3.jpg")    
             li 
-                img(src="/images/pic4.jpg") 
+                img(class="thumbnail",class="pic",src="/images/pic4.jpg") 
             li 
-                img(src="/images/pic5.jpg")    
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                img(class="thumbnail",class="pic",src="/images/pic5.jpg")  
+                div(class="bigger-pic-ul")
+            
 block footer
-    script. 
-        $(document).ready(function(){
-            //alert("hello");
-        });
+  

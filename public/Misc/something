@@ -1,0 +1,13 @@
+I've been told by Jimi that I should create something involving images. 
+My plan is to create a website? which has images which are scollable. Expand into a div. 
+
+<b>Steps</b>
+Post the images (check)
+Create horizontal slider beneath the images (check) and limit the width of the container div so the slide bar is always shown.(width)
+Use javascript to make images not selected grey (opaque) and image that is selected show. 
+Include images in div tag by defauly with set sizes. Hide until corresponding small thumbnail image selected.
+Make images scroll with timer anyway.
+Allow selection to be done using left/right buttons. 
+Do rest of site. 
+
+Edit 24/04/`5 (this is not working so I'll try something else)
