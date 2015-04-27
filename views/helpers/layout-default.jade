@@ -1,14 +1,50 @@
 include ./mixins.jade
+link(rel='stylesheet', href='/Stylesheets/menu.css')
+link(rel='stylesheet', href='http://meyerweb.com/eric/tools/css/reset/reset.css')
+link(rel='stylesheet', href='/Stylesheets/style.css')
+
+
+
 
 html
-	head
-	
-		block head
-	body
-	
-		block body
-	
-		+addScript("/js/jquery.js")
-		+addScript("/js/knockout.js")
-		+addScript("/js/underscore.js")
-		block footer
+    block head
+        meta(charset='UTF-8')
+    block body
+        div#header
+            
+            ul#menu
+              li
+                a(href='http://localhost:4000/') Home
+
+              li
+                a(href='#') Anime 
+
+                ul.hidden
+                  li
+                    a(href='http://localhost:4000/something#') Clannad
+
+                  li
+                    a(href='#') Naruto
+
+              li
+                a(href='#') TV shows
+
+                ul.hidden
+                  li
+                    a(href='#') The Flash
+
+                  li
+                    a(href='#') Arrow
+
+                  li
+                    a(href='#') Once Upon a time
+              li
+                a(href='#') Contact
+
+       
+
++addScript("/js/jquery.js")
++addScript("/js/knockout.js")
++addScript("/js/underscore.js")
+block footer
+

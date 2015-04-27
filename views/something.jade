@@ -1,28 +1,39 @@
-extends ./helpers/layout-default.jade
+include ./helpers/layout-default.jade
 
 block head
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/something.css')
     script(type='text/javascript', src='/js/jquery.js')
     script(type='text/javascript', src='/js/something.js')
 
-    
+
     
     block body
     
-    h   
-    div(class="thumbnail-ul")
-        ul
+      
+    div(id="slider")
+        ul(class="slides")
             li 
-                img(class="thumbnail",class="pic",src="/images/pic1.jpg")
+                img(class="slide",src="/images/pic1.jpg")
             li 
-                img(class="thumbnail",class="pic",src="/images/pic2.jpg")
+                img(class="slide",src="/images/pic2.jpg")
             li 
-                img(class="thumbnail",class="pic",src="/images/pic3.jpg")    
+                img(class="slide",src="/images/pic3.jpg")    
             li 
-                img(class="thumbnail",class="pic",src="/images/pic4.jpg") 
+                img(class="slide",src="/images/pic4.jpg") 
             li 
-                img(class="thumbnail",class="pic",src="/images/pic5.jpg")  
-                div(class="bigger-pic-ul")
+                img(class="slide",src="/images/pic5.jpg") 
+            li  
+                img(class="slide",src="/images/pic6.jpg")
+            li  
+                img(class="slide",src="/images/pic7.jpg")
+            li  
+                img(class="slide",src="/images/pic8.jpg")
+            li  
+                img(class="slide",src="/images/pic1.jpg")
+                
+    footer
+                
             
 block footer
-  
+
+    

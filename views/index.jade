@@ -1,12 +1,29 @@
-extends ./helpers/layout-default.jade
-
+include ./helpers/layout-default.jade
 
 block head
-	//add any stylesheets and stuff here
-	//+addStyle("/url/to/css")
-
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='/Stylesheets/style.css')
 block body
-	h1 Hello World
 
-block footer
-	+addScript("/js/app/index.js")
+    div.container
+        div.left-column
+            
+            div.dutch
+                    img(src="http://goo.gl/navfpX")
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor convallis suscipit. Maecenas maximus arcu enim, sed molestie orci elementum eget.
+            div.me
+                    img(src="https://i1.sndcdn.com/avatars-000015093280-kv6pe4-t500x500.jpg")       
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor convallis suscipit. Maecenas maximus arcu enim, sed molestie orci elementum eget.
+
+        
+        div.right-column
+            h1 Welcome!
+               
+               
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor convallis suscipit. Maecenas maximus arcu enim, sed molestie orci elementum eget. Praesent vulputate dictum quam, sit amet maximus mi. Sed sagittis libero ac odio tincidunt facilisis. Phasellus vel velit nulla. Donec non tempus turpis. Nunc nulla nulla, lobortis vel arcu sit amet, pellentesque blandit neque. Fusce erat leo, aliquam sit amet urna at, congue efficitur ipsum. Quisque vitae lacus et lectus efficitur blandit eget vel elit.
+
+            p metus sapien, dignissim vitae dui ut, sollicitudin scelerisque lectus. Aliquam erat volutpat. Aenean et ullamcorper enim. Curabitur accumsan iaculis erat, a tincidunt augue mollis sit amet. Vestibulum tortor eros, dignissim id eros ut, congue interdum mi. Quisque volutpat blandit bibendum. Fusce at condimentum mauris. Vivamus imperdiet maximus augue vel consequat. Proin pellentesque id dui pellentesque tincidunt. Vivamus turpis arcu, consectetur quis libero sed, eleifend porta nulla. Vivamus egestas nunc a mi ullamcorper, eget sodales dui pulvinar. Vivamus aliquet sit amet nunc non ultrices. Aliquam egestas varius libero vitae placerat.
+
+            p sit amet dictum nisi, eget luctus tortor. Etiam gravida urna ut laoreet porttitor. Donec congue iaculis velit sit amet molestie. Praesent finibus pharetra quam, ut rhoncus massa finibus vitae. Duis quis egestas purus, ut pharetra sapien. Vivamus a ultrices eros. Vestibulum tincidunt ipsum et erat vulputate tempus. Nam sit amet dui vel ante dignissim bibendum. Praesent eget leo vitae metus interdum mollis sit amet eget magna. Mauris quis tincidunt libero. Fusce dapibus semper tellus nec tincidunt. Donec in est a nisl pretium auctor. Integer porttitor laoreet est, non aliquet mi pretium at. Suspendisse eleifend ornare est, at aliquet enim scelerisque at.
+        footer
+        

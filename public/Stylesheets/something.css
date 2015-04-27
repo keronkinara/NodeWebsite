@@ -1,0 +1,33 @@
+#slider{
+    width:1000px;
+    height:555px;
+    overflow:hidden;
+position: relative;
+margin: 0 auto;}
+
+.slides{
+    display: block;
+    width:8333.3px;
+    height:555px;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    !important
+
+}
+
+.slide{
+    width:1000px;
+    height:555px;
+    float:left;
+    !important
+
+}
+
+footer{
+    margin:auto;
+    clear:both;
+    width:1000px;
+    background-color:#464675;
+    height:70px;
+}
