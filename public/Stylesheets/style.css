@@ -5,21 +5,28 @@ background-color: #F0F8FF;
 .left-column{
     width: 300px;
     background-color:#9C6B98;
-    height: 400px;
+    height: 600px;
     margin: 0;
     float: left;
     color:#D3D3D3;
+    font-family: sans-serif;
+    font-size: 14.5px;
 }
 
 .right-column{
     width: 700px;
     background-color:#7A378B;
-    height:400px;
+    height:600px;
     margin: 0;
     float:left;
     color:#D3D3D3;
+    font-family: sans-serif;
 
-    
+}
+
+.right-column p{
+        font-size: 95%;
+        text-align: justify;
 
 }
 .container{
@@ -30,11 +37,12 @@ background-color: #F0F8FF;
   
 }
 
-h1{
+.right-column h1{
     color:darkblue;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     margin: 2 0 5 10;
+    text-align: center;
 }
 
 p{
@@ -44,9 +52,13 @@ p{
 
 footer{
     clear:both;
-    width:1000px;
+    max-width:1000px;
+    width: 1000px;
     background-color:#464675;
     height:70px;
+    padding:15 0 0 10;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 div div div img{
@@ -54,16 +66,16 @@ div div div img{
     height:150px;
     float:left;
     margin-bottom: 10px;
-    padding-bottom: 10px;
     margin-rght:5px;
     padding-right: 5px;
+    margin-top:8px;
+    margin-left: 5px
 }
 div div div{
-margin:10px   
+    margin:8px;
+     border: 4px #7A378B solid;
 }
    
 
-
-    
 
    

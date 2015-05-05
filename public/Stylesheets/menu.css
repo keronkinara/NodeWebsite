@@ -1,6 +1,6 @@
 #header{
     background-image: url("/images/header image.jpg");
-    width:1000;
+    width:1000px;
     height:400px;
     margin:0 auto;
 
@@ -15,7 +15,9 @@ ul {
 	margin:0;
 	padding:0;
 	position: absolute;
+    background-color: #464675; opacity: 0.8; filter: alpha(opacity=50);
     
+
     
 }
 /*Create a horizontal list with spacing*/
@@ -24,11 +26,13 @@ li {
 	display:inline-block;
 	float: left;
 	margin-right: 1px;
+    box-shadow: 0 0 5px 1px #5C246E;
     
+
 }
 
 /*Style for menu links*/
-li a {
+#menu li a {
 	display:block;
 	min-width:140px;
 	height: 50px;
@@ -41,12 +45,12 @@ li a {
 }
 
 /*Hover state for top level links*/
-li:hover a {
+#menu li:hover a {
 	background: black;
 }
 
 /*Style for dropdown links*/
-li:hover ul a {
+#menu li:hover .hidden a {
 	background: #464675;
 	color: white;
 	height: 40px;
@@ -54,30 +58,30 @@ li:hover ul a {
 }
 
 /*Hover state for dropdown links*/
-li:hover ul a:hover {
+#menu li:hover .hidden a:hover {
 	background: #BC8F8F;
 	color: #fff;
 }
 
 /*Hide dropdown links until they are needed*/
-li ul {
+li .hidden {
 	display: none;
 }
 
 /*Make dropdown links vertical*/
-li ul li {
+#menu li ul li {
 	display: block;
 	float: none;
 }
 
 /*Prevent text wrapping*/
-li ul li a {
+li .hidden li a {
 	width: auto;
 	min-width: 100px;
 	padding: 0 20px;
 }
 
 /*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
+#menu li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
